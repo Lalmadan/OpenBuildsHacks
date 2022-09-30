@@ -9,10 +9,10 @@ $(document).ready(function() {
     window.mmMode = function() {
         unit = "mm";
         localStorage.setItem('unitsMode', unit);
-        $('#dist01label').html('0.1mm')
-        $('#dist1label').html('1mm')
-        $('#dist10label').html('10mm')
-        $('#dist100label').html('100mm')
+        $('#dist01label').html('0.01')
+        $('#dist1label').html('.1mm')
+        $('#dist10label').html('1mm')
+        $('#dist100label').html('10mm')
         if (jogdist == 0.254) {
         jogdist = 0.1
         }
